@@ -1,0 +1,91 @@
+@media (max-width:460px) {
+    .logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .titulos {
+        top: -15px;
+        right: 5%;
+    }
+
+    .titulo-principal {
+        font-size: 2em; 
+    }
+
+    .subtitulo {
+        font-size: 8px;
+    }
+
+    .caixa { 
+        bottom: 40px;
+        width: 320px;
+        left: 50px
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    .inicial {
+        width: 340px;
+    }
+
+    .texto-inicial {
+        font-size: 15px;
+    }
+
+    .titulo-links{
+        top: 50px;
+        font-size: 15px;
+        right: 17px;                              
+        width: 380px;   
+    }
+
+    .links{ 
+        top: 100px;
+        left: -70px;  
+    }
+
+    .btn-seta, .btn-seta-galeria {
+        width: 30px;
+        height: 30px;
+        margin: 15px;
+    }
+    
+    .seta {
+        width: 20px;
+    }
+
+    .lista-projetos {
+        left: 50px;
+    }
+    
+    .projeto {
+        left: 10px;
+        width: 300px;
+    }
+
+    .imagens-projetos {
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+
+    #ajuste-altura {
+        bottom: 610px;
+    }
+    
+    #ajuste-imagem {
+        height: 50%;
+    }
+
+    .diad {
+        position: relative;
+        bottom: 290px;
+        height: 335px;
+    }
+}

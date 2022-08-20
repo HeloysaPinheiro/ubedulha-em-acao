@@ -1,0 +1,272 @@
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+/*Cabeçalho*/
+.cabecalho-rodape {
+    background: rgb( 19, 36, 79);
+}
+
+.titulos {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    color: #fefefe;
+}
+
+.titulo-principal {
+    font-size: 7em; 
+    padding: 30px 0 0 0;
+}
+
+.subtitulo {
+    font-size: 25px;
+    position: relative;
+    left: 25%;
+    padding: 0.5em 0 0;
+}
+
+.caixa {
+    position: relative;
+    bottom: 50px;
+	width: 940px;
+    left: 220px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+    right: 0px;
+    margin: 0 30px 0 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 10px 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #fefefe;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/*Galeria Ubedulha, Utilidades e home - títulos*/
+.titulo-geral {
+    text-align: center;
+	font-size: 2em;
+	margin: 1em 0 1em;
+}
+
+.inicial {
+    padding: 1em 0;
+	background: #FEFEFE;
+	width: 960px;
+    border: #000000 solid 3px;
+    border-radius: 10px;
+	margin: 1em auto;
+}
+
+.texto-inicial {
+    margin: 0 0 1em;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*Projetos Ubedulha*/
+
+.ubedulha {
+    background: linear-gradient(#fefefe, #2a9617);
+}
+
+.projetos-ubedulha {
+    /* background: green; */
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.btn-seta {
+    z-index: 1;
+    margin: 10% 10% 25% 10%;
+    background-color: #FFF;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    transition: backgroud-color 0.2s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+ 
+.btn-seta:hover {
+    background-color: #88cf8d;
+}
+
+.btn-seta.btn-voltar {
+    transform: rotateY(180deg);  
+    position: absolute;
+    left: 1px;
+    z-index: 1;  
+}
+
+.lista-projetos {
+    width: 500px;
+    height: 520px;
+    position: relative;
+    left: 25px;
+}
+
+.projeto {
+    opacity: 0;
+    position: absolute;
+    right: 45px;    
+    bottom: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.projeto.selecionado {
+    opacity: 1;
+    z-index: 1;
+}
+
+.imagens-projetos {
+    height: 620px;
+    width: 760px;
+	opacity: 1;
+    border-radius: 10px 10px 0 0;
+    border: 5px solid #000000;
+}
+
+.diad {
+    height: 620px;
+}
+
+.descricao {
+    background: grey;
+    width: 100%;
+    position: absolute;
+    max-height: 380px;
+    overflow-y: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0 0 10px 10px;
+    border: 5px solid #000000;
+}
+
+.titulo {
+    font-size: 35px;
+    margin: 0 0 10px;
+}
+
+.texto {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+/*Geleria Ubedulha*/
+
+.galeria {
+    background: linear-gradient(#fefefe, #861111);
+}
+
+.logo-ubedulha {
+    width: 120px;
+	float: left;
+	margin: 0 20px 20px 15px;
+}
+
+.btn-seta-galeria {
+    z-index: 1;
+    margin: 10% 10% 25% 10%;
+    background-color: #FFF;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;
+    transition: backgroud-color 0.2s ease-in-out;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+ 
+.btn-seta-galeria:hover {
+    background-color: #861111;
+}
+
+.btn-seta-galeria.btn-voltar {
+    z-index: 1;
+    transform: rotateY(180deg);  
+    position: absolute;
+    left: 1px;  
+}
+
+#ajuste-altura {
+    position: absolute;
+    bottom: 390px;
+}
+
+#ajuste-imagem {
+    height: 50%;
+}
+
+
+.cabecalho-rodape.rodape {
+    text-align: center;
+}
+
+/*Ubedulha Utilidades*/
+
+.utilidade {
+    background: linear-gradient(#fefefe, #0e9bd8);
+}
+
+.titulo-links {
+    background-color: #FEFEFE;
+    position: absolute;
+    right: 65px;
+    top: 70px;                                  
+    padding: 10px;
+    border: #000000 solid 2px;
+    border-radius: 10px;
+    width: 1240px;
+    text-align: center;
+    align-items: center;
+}
+
+.links {
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 55px;     
+    font-size: 22px;
+    padding: 60px;
+}
+
+.link {
+    background: #fefefe;
+    color: #000;
+    border-radius: 7px;
+    margin: 5px;
+    width: 240px;
+    padding: 10px;
+    border:#000000 solid 2px;
+}
+
+.link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link :hover {
+    color:#0e9bd8;
+    font-size: 25px;
+}
